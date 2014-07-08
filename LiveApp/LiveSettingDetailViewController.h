@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LiveSettingDetailViewController : UIViewController<UITextFieldDelegate>
+@interface LiveSettingDetailViewController : LiveSuperViewController<UITextFieldDelegate,UIAlertViewDelegate>
 
 @property(nonatomic)NSInteger touchIndex;
-@property(nonatomic,strong)UIImageView * backgroundView;
 
 
 @end
