@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182AD3AE196BF1FB004AE431 /* LiveShow01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182AD3AD196BF1FB004AE431 /* LiveShow01.jpg */; };
 		18886754196694B500AB1F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18886753196694B500AB1F2B /* Foundation.framework */; };
 		18886756196694B500AB1F2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18886755196694B500AB1F2B /* CoreGraphics.framework */; };
 		18886758196694B500AB1F2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18886757196694B500AB1F2B /* UIKit.framework */; };
@@ -235,6 +236,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182AD3AD196BF1FB004AE431 /* LiveShow01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveShow01.jpg; sourceTree = "<group>"; };
 		18886750196694B500AB1F2B /* LiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18886753196694B500AB1F2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18886755196694B500AB1F2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -651,6 +653,7 @@
 		18C988391966A4B700ED62AF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				182AD3AD196BF1FB004AE431 /* LiveShow01.jpg */,
 				82CEF05B196842EE002C6864 /* images */,
 				18C9883A1966A4B700ED62AF /* pic */,
 			);
@@ -1103,6 +1106,7 @@
 				82CEF0D5196842EE002C6864 /* 20.JPG in Resources */,
 				82CEF0E5196842EE002C6864 /* 7.JPG in Resources */,
 				18C988CD1966A4B700ED62AF /* 前摄像头按钮.png in Resources */,
+				182AD3AE196BF1FB004AE431 /* LiveShow01.jpg in Resources */,
 				82CEF0C3196842EE002C6864 /* 5_full.JPG in Resources */,
 				82CEF0D8196842EE002C6864 /* 23.JPG in Resources */,
 				82CEF0DB196842EE002C6864 /* 26.JPG in Resources */,
