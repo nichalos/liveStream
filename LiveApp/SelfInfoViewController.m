@@ -23,12 +23,21 @@
     return self;
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewDidAppear:YES];
+    self.navigationController.navigationBar.hidden = NO;
+
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setBackgroundImage];
+    self.navigationController.navigationBar.hidden = NO;
     
-    self.navigationController.navigationBarHidden = NO;
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:76.0/255 green:23.0/255 blue:89.0/255 alpha:1.0f]];
     
     
@@ -59,28 +68,105 @@
     
     UIButton * changeHeadImageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     changeHeadImageBtn.backgroundColor = [UIColor blackColor];///////
-    changeHeadImageBtn.frame = CGRectMake(VIEW_WIDTH/2 - 37.5, CGRectGetMaxY(headImage.frame) + 14, 75, 20);
+    changeHeadImageBtn.frame = CGRectMake(VIEW_WIDTH/2 - 37.5, CGRectGetMaxY(headImage.frame) + 10, 75, 20);
     [changeHeadImageBtn addTarget:self action:@selector(ChangeHeadImage) forControlEvents:UIControlEventTouchUpInside];
     [changeHeadImageBtn setTitle:@"修改头像" forState:UIControlStateNormal];
-    changeHeadImageBtn.titleLabel.font = [UIFont systemFontOfSize:15];
+    changeHeadImageBtn.titleLabel.font = [UIFont systemFontOfSize:13];
     changeHeadImageBtn.titleLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:changeHeadImageBtn];
     
+    UILabel * nameLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(changeHeadImageBtn.frame) + 30, 65, 25) andTitle:@"昵       称"];
+    [self.view addSubview:nameLabel];
+    self.nameTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(nameLabel.frame) + 10, CGRectGetMinY(nameLabel.frame), 215, 25)];
+    self.nameTF.text = @"猫咪123";/////////////
+    self.nameTF.keyboardType = UIKeyboardTypeDefault;
+    self.nameTF.keyboardAppearance = UIKeyboardAppearanceLight;
+    
 
+    self.nameTF.delegate = self;
+    [self.view addSubview:self.nameTF];
+    
+    UILabel * mailLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(nameLabel.frame) + 15, 65, 25) andTitle:@"电子邮箱"];
+    [self.view addSubview:mailLabel];
+    self.mailTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(mailLabel.frame) + 10, CGRectGetMinY(mailLabel.frame), 215, 25)];
+    self.mailTF.delegate = self;
+    [self.view addSubview:self.mailTF];
+    
+    UILabel * sexLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(mailLabel.frame) + 15, 65, 25) andTitle:@"性       别"];
+    [self.view addSubview:sexLabel];
+    self.sexTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(sexLabel.frame) + 10, CGRectGetMinY(sexLabel.frame), 215, 25)];
+    self.sexTF.delegate = self;
+    [self.view addSubview:self.sexTF];
+    
+    UILabel * tagLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(sexLabel.frame) + 15, 65, 25) andTitle:@"标       签"];
+    [self.view addSubview:tagLabel];
+    self.tagTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(tagLabel.frame) + 10, CGRectGetMinY(tagLabel.frame), 215, 25)];
+    self.tagTF.delegate = self;
+    [self.view addSubview:self.tagTF];
+    
+    UILabel * birthLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(tagLabel.frame) +15, 65, 25) andTitle:@"生       日"];
+    [self.view addSubview:birthLabel];
+    self.birthTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(birthLabel.frame) + 10, CGRectGetMinY(birthLabel.frame), 215, 25)];
+    self.birthTF.delegate = self;
+    [self.view addSubview:self.birthTF];
+    
+    UILabel * detailLabel = [self LabelWithRect:CGRectMake(15, CGRectGetMaxY(birthLabel.frame) +15, 65, 25) andTitle:@"个人描述"];
+    [self.view addSubview:detailLabel];
+    self.detailTF = [self TextFieldWithRect:CGRectMake(CGRectGetMaxX(detailLabel.frame) + 10, CGRectGetMinY(detailLabel.frame), 215, 25)];
+    self.detailTF.delegate = self;
+    [self.view addSubview:self.detailTF];
 
 }
 
+- (void)setBackgroundImage
+{
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    imageView.image = [UIImage imageNamed:@"整体暗色大背景"];
+    imageView.userInteractionEnabled = YES;
+    [self.view addSubview:imageView];
+}
+
+-(UILabel* )LabelWithRect:(CGRect)rect andTitle:(NSString *)title
+{
+    UILabel * label = [[UILabel alloc] initWithFrame:rect];
+    label.text = title;
+    label.textColor = [UIColor whiteColor];
+    label.font = [UIFont systemFontOfSize:14];
+    label.textAlignment = NSTextAlignmentLeft;
+    return label;
+}
+
+-(UITextField *) TextFieldWithRect:(CGRect)rect
+{
+    UITextField * Tf = [[UITextField alloc]initWithFrame:rect];
+    Tf.textAlignment = NSTextAlignmentLeft;
+    Tf.font = [UIFont systemFontOfSize:15];
+    Tf.textColor = [UIColor whiteColor];
+    
+    UIImageView *line = [[UIImageView alloc]initWithFrame:CGRectMake(CGRectGetMinX(rect) - 5, CGRectGetMaxY(rect), CGRectGetWidth(rect) + 10, 0.5)];
+    line.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:line];
+    
+    return Tf;
+    
+}
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
+
+
+//取消
 -(void)CancelButtonPressed
 {
     [self.navigationController popViewControllerAnimated:YES];
-    self.navigationController.navigationBarHidden = YES;
 }
-
+//保存
 -(void)SaveButtonPressed
 {
     
 }
-
+//修改头像
 -(void)ChangeHeadImage
 {
     

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "LiveSuperViewController.h"
 
-@interface LiveSearchViewController : LiveSuperViewController
+@interface LiveSearchViewController : LiveSuperViewController<UISearchBarDelegate>
 
 @end

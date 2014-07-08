@@ -7,7 +7,7 @@
 //
 
 #import "LiveHomeViewController.h"
-#import "DetailViewController.h"
+#import "LiveDetailViewController.h"
 #define MENUHEIHT 40
 
 @interface LiveHomeViewController ()
@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self initPopTitileView:@"直播秀"];
 	[self commInit];
 }
 #pragma mark UI初始化
@@ -83,12 +84,8 @@
 
 - (void)didSelectCollectionViewCell:(NSInteger)index
 {
-    NSString *imageNameToLoad = [NSString stringWithFormat:@"%d_full", index];
-    NSString *pathToImage = [[NSBundle mainBundle] pathForResource:imageNameToLoad ofType:@"JPG"];
-    UIImage *image = [[UIImage alloc] initWithContentsOfFile:pathToImage];
-    DetailViewController *detailVC = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
-    detailVC.image = image;
-//    detailVC.navigationController.navigationBar.hidden = YES;
+    LiveDetailViewController *detailVC = [[LiveDetailViewController alloc] initWithModel:@"艾薇儿演唱会"];
+    detailVC.navigationController.navigationBarHidden = YES;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 - (void)didReceiveMemoryWarning

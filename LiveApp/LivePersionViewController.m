@@ -7,8 +7,6 @@
 //
 
 #import "LivePersionViewController.h"
-
-
 #import "CollectionCell.h"
 #import "SelfInfoViewController.h"
 
@@ -35,6 +33,7 @@
     [self creatUpView];
     
 }
+
 
 -(void)creatUpView
 {
@@ -114,7 +113,7 @@
     _yourDraftBtn.titleLabel.textColor = [UIColor redColor];
     [_yourDraftBtn setBackgroundImage:[UIImage imageNamed:@"选择秀友按钮颜色.png"] forState:UIControlStateSelected];
     [_yourDraftBtn addTarget:self action:@selector(buttonDidSelect:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_yourDraftBtn];
+//    [self.view addSubview:_yourDraftBtn];
     
     
     [self addLiveVideosView];
@@ -149,9 +148,15 @@
     if (!cell) {
         cell = [[CollectionCell alloc]initWithFrame:CGRectMake(0, 0, 150, 120)];
     }
+    if (indexPath.row == 0) {
+        cell.BGimageView.image = [UIImage imageNamed:@"创建直播.png"];
+        cell.label.hidden = YES;
+        cell.title.text = @"创建直播";
+    }
+    
 
     
-    cell.backgroundColor = [UIColor redColor];
+    cell.backgroundColor = [UIColor clearColor];
 
     return cell;
 }
@@ -172,7 +177,8 @@
 //编辑个人资料
 -(void)editSelfFiles
 {
-    SelfInfoViewController * editInfoVC = [[SelfInfoViewController alloc]init];    
+    SelfInfoViewController * editInfoVC = [[SelfInfoViewController alloc]init];
+    editInfoVC.navigationController.navigationBarHidden = YES;
     [self.navigationController  pushViewController:editInfoVC animated:YES];
     
 }

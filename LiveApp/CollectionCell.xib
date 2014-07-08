@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -40,8 +40,10 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <connections>
+                <outlet property="BGimageView" destination="GCN-z5-w6N" id="Tq7-z1-L6Y"/>
                 <outlet property="imageView" destination="eNW-c1-xP0" id="vfh-mN-Jcy"/>
                 <outlet property="label" destination="TXd-td-g0F" id="aUq-44-OhT"/>
+                <outlet property="title" destination="tTV-jG-cyB" id="otg-L3-1c3"/>
             </connections>
         </collectionViewCell>
     </objects>

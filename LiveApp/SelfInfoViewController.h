@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "LiveSuperViewController.h"
 
-@interface SelfInfoViewController : UIViewController
+@interface SelfInfoViewController : UIViewController<UITextFieldDelegate>
 
 
 
-
+@property (nonatomic,strong) UITextField *nameTF;
+@property (nonatomic,strong) UITextField *mailTF;
+@property (nonatomic,strong) UITextField *sexTF;
+@property (nonatomic,strong) UITextField *tagTF;
+@property (nonatomic,strong) UITextField *birthTF;
+@property (nonatomic,strong) UITextField *detailTF;
 
 
 

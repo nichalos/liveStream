@@ -145,6 +145,32 @@
 		820143B11966DF2B00A65700 /* LiveTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 820143B01966DF2B00A65700 /* LiveTabBarButton.m */; };
 		820143B41966E6CC00A65700 /* LiveSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820143B31966E6CC00A65700 /* LiveSuperViewController.m */; };
 		820143B81967B61400A65700 /* LiveLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820143B71967B61400A65700 /* LiveLoginViewController.m */; };
+		821874BA196C379E0035E9D6 /* ALAirplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874A2196C379E0035E9D6 /* ALAirplayView.m */; };
+		821874BB196C379E0035E9D6 /* ALButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874A4196C379E0035E9D6 /* ALButton.m */; };
+		821874BC196C379E0035E9D6 /* ALMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874A6196C379E0035E9D6 /* ALMoviePlayerController.m */; };
+		821874BD196C379E0035E9D6 /* ALMoviePlayerControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874A8196C379E0035E9D6 /* ALMoviePlayerControls.m */; };
+		821874BE196C379E0035E9D6 /* movieBackward.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AA196C379E0035E9D6 /* movieBackward.png */; };
+		821874BF196C379E0035E9D6 /* movieBackward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AB196C379E0035E9D6 /* movieBackward@2x.png */; };
+		821874C0196C379E0035E9D6 /* movieBackwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AC196C379E0035E9D6 /* movieBackwardSelected.png */; };
+		821874C1196C379E0035E9D6 /* movieBackwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AD196C379E0035E9D6 /* movieBackwardSelected@2x.png */; };
+		821874C2196C379E0035E9D6 /* movieEndFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AE196C379E0035E9D6 /* movieEndFullscreen.png */; };
+		821874C3196C379E0035E9D6 /* movieEndFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874AF196C379E0035E9D6 /* movieEndFullscreen@2x.png */; };
+		821874C4196C379E0035E9D6 /* movieForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B0196C379E0035E9D6 /* movieForward.png */; };
+		821874C5196C379E0035E9D6 /* movieForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B1196C379E0035E9D6 /* movieForward@2x.png */; };
+		821874C6196C379E0035E9D6 /* movieForwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B2196C379E0035E9D6 /* movieForwardSelected.png */; };
+		821874C7196C379E0035E9D6 /* movieForwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B3196C379E0035E9D6 /* movieForwardSelected@2x.png */; };
+		821874C8196C379E0035E9D6 /* movieFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B4196C379E0035E9D6 /* movieFullscreen.png */; };
+		821874C9196C379E0035E9D6 /* movieFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B5196C379E0035E9D6 /* movieFullscreen@2x.png */; };
+		821874CA196C379E0035E9D6 /* moviePause.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B6196C379E0035E9D6 /* moviePause.png */; };
+		821874CB196C379E0035E9D6 /* moviePause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B7196C379E0035E9D6 /* moviePause@2x.png */; };
+		821874CC196C379E0035E9D6 /* moviePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B8196C379E0035E9D6 /* moviePlay.png */; };
+		821874CD196C379E0035E9D6 /* moviePlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874B9196C379E0035E9D6 /* moviePlay@2x.png */; };
+		821874D0196C37C90035E9D6 /* LiveMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874CF196C37C90035E9D6 /* LiveMovieViewController.m */; };
+		821874D4196C41D40035E9D6 /* DMCustomModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874D3196C41D40035E9D6 /* DMCustomModalViewController.m */; };
+		821874D6196C45210035E9D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821874D5196C45210035E9D6 /* QuartzCore.framework */; };
+		821874D9196C47C00035E9D6 /* ModalRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821874D8196C47C00035E9D6 /* ModalRootViewController.m */; };
+		821874E0196C4C740035E9D6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 821874DF196C4C740035E9D6 /* 1.png */; };
+		82C1A206196C2A7D00C66BF5 /* LiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C1A205196C2A7D00C66BF5 /* LiveDetailViewController.m */; };
 		82CEF0341967C2B8002C6864 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF0331967C2B8002C6864 /* LoginViewController.m */; };
 		82CEF0371967C2D8002C6864 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF0361967C2D8002C6864 /* SignUpViewController.m */; };
 		82CEF0421967DBA2002C6864 /* HudDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF03F1967DBA2002C6864 /* HudDemoViewController.m */; };
@@ -155,8 +181,6 @@
 		82CEF04D19681D24002C6864 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CEF04C19681D24002C6864 /* SystemConfiguration.framework */; };
 		82CEF05719684250002C6864 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF05219684250002C6864 /* CollectionCell.m */; };
 		82CEF05819684250002C6864 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF05319684250002C6864 /* CollectionCell.xib */; };
-		82CEF05919684250002C6864 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF05519684250002C6864 /* DetailViewController.m */; };
-		82CEF05A19684250002C6864 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF05619684250002C6864 /* DetailViewController.xib */; };
 		82CEF0A8196842EE002C6864 /* 0_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF062196842EE002C6864 /* 0_full.JPG */; };
 		82CEF0A9196842EE002C6864 /* 10_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF063196842EE002C6864 /* 10_full.JPG */; };
 		82CEF0AA196842EE002C6864 /* 11_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF064196842EE002C6864 /* 11_full.JPG */; };
@@ -386,6 +410,40 @@
 		820143B31966E6CC00A65700 /* LiveSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveSuperViewController.m; sourceTree = "<group>"; };
 		820143B61967B61400A65700 /* LiveLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveLoginViewController.h; sourceTree = "<group>"; };
 		820143B71967B61400A65700 /* LiveLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveLoginViewController.m; sourceTree = "<group>"; };
+		821874A1196C379E0035E9D6 /* ALAirplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAirplayView.h; sourceTree = "<group>"; };
+		821874A2196C379E0035E9D6 /* ALAirplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAirplayView.m; sourceTree = "<group>"; };
+		821874A3196C379E0035E9D6 /* ALButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALButton.h; sourceTree = "<group>"; };
+		821874A4196C379E0035E9D6 /* ALButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALButton.m; sourceTree = "<group>"; };
+		821874A5196C379E0035E9D6 /* ALMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerController.h; sourceTree = "<group>"; };
+		821874A6196C379E0035E9D6 /* ALMoviePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerController.m; sourceTree = "<group>"; };
+		821874A7196C379E0035E9D6 /* ALMoviePlayerControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerControls.h; sourceTree = "<group>"; };
+		821874A8196C379E0035E9D6 /* ALMoviePlayerControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerControls.m; sourceTree = "<group>"; };
+		821874AA196C379E0035E9D6 /* movieBackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackward.png; sourceTree = "<group>"; };
+		821874AB196C379E0035E9D6 /* movieBackward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackward@2x.png"; sourceTree = "<group>"; };
+		821874AC196C379E0035E9D6 /* movieBackwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackwardSelected.png; sourceTree = "<group>"; };
+		821874AD196C379E0035E9D6 /* movieBackwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackwardSelected@2x.png"; sourceTree = "<group>"; };
+		821874AE196C379E0035E9D6 /* movieEndFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieEndFullscreen.png; sourceTree = "<group>"; };
+		821874AF196C379E0035E9D6 /* movieEndFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieEndFullscreen@2x.png"; sourceTree = "<group>"; };
+		821874B0196C379E0035E9D6 /* movieForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForward.png; sourceTree = "<group>"; };
+		821874B1196C379E0035E9D6 /* movieForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForward@2x.png"; sourceTree = "<group>"; };
+		821874B2196C379E0035E9D6 /* movieForwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForwardSelected.png; sourceTree = "<group>"; };
+		821874B3196C379E0035E9D6 /* movieForwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForwardSelected@2x.png"; sourceTree = "<group>"; };
+		821874B4196C379E0035E9D6 /* movieFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieFullscreen.png; sourceTree = "<group>"; };
+		821874B5196C379E0035E9D6 /* movieFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieFullscreen@2x.png"; sourceTree = "<group>"; };
+		821874B6196C379E0035E9D6 /* moviePause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePause.png; sourceTree = "<group>"; };
+		821874B7196C379E0035E9D6 /* moviePause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePause@2x.png"; sourceTree = "<group>"; };
+		821874B8196C379E0035E9D6 /* moviePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePlay.png; sourceTree = "<group>"; };
+		821874B9196C379E0035E9D6 /* moviePlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePlay@2x.png"; sourceTree = "<group>"; };
+		821874CE196C37C90035E9D6 /* LiveMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveMovieViewController.h; sourceTree = "<group>"; };
+		821874CF196C37C90035E9D6 /* LiveMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveMovieViewController.m; sourceTree = "<group>"; };
+		821874D2196C41D40035E9D6 /* DMCustomModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCustomModalViewController.h; sourceTree = "<group>"; };
+		821874D3196C41D40035E9D6 /* DMCustomModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCustomModalViewController.m; sourceTree = "<group>"; };
+		821874D5196C45210035E9D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		821874D7196C47C00035E9D6 /* ModalRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalRootViewController.h; path = ../../../Downloads/DMCustomModalViewController/DMCustomModalViewController/ModalRootViewController.h; sourceTree = "<group>"; };
+		821874D8196C47C00035E9D6 /* ModalRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalRootViewController.m; path = ../../../Downloads/DMCustomModalViewController/DMCustomModalViewController/ModalRootViewController.m; sourceTree = "<group>"; };
+		821874DF196C4C740035E9D6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		82C1A204196C2A7D00C66BF5 /* LiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveDetailViewController.h; sourceTree = "<group>"; };
+		82C1A205196C2A7D00C66BF5 /* LiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveDetailViewController.m; sourceTree = "<group>"; };
 		82CEF0321967C2B8002C6864 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		82CEF0331967C2B8002C6864 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		82CEF0351967C2D8002C6864 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -403,9 +461,6 @@
 		82CEF05119684250002C6864 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
 		82CEF05219684250002C6864 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
 		82CEF05319684250002C6864 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
-		82CEF05419684250002C6864 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		82CEF05519684250002C6864 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		82CEF05619684250002C6864 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		82CEF062196842EE002C6864 /* 0_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_full.JPG; sourceTree = "<group>"; };
 		82CEF063196842EE002C6864 /* 10_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_full.JPG; sourceTree = "<group>"; };
 		82CEF064196842EE002C6864 /* 11_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11_full.JPG; sourceTree = "<group>"; };
@@ -481,6 +536,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821874D6196C45210035E9D6 /* QuartzCore.framework in Frameworks */,
 				82CEF04D19681D24002C6864 /* SystemConfiguration.framework in Frameworks */,
 				82CEF0451967DBD6002C6864 /* Accelerate.framework in Frameworks */,
 				18886756196694B500AB1F2B /* CoreGraphics.framework in Frameworks */,
@@ -526,6 +582,7 @@
 		18886752196694B500AB1F2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				821874D5196C45210035E9D6 /* QuartzCore.framework */,
 				82CEF04C19681D24002C6864 /* SystemConfiguration.framework */,
 				82CEF0441967DBD6002C6864 /* Accelerate.framework */,
 				18886753196694B500AB1F2B /* Foundation.framework */,
@@ -599,15 +656,18 @@
 				82CEF05119684250002C6864 /* CollectionCell.h */,
 				82CEF05219684250002C6864 /* CollectionCell.m */,
 				82CEF05319684250002C6864 /* CollectionCell.xib */,
-				82CEF05419684250002C6864 /* DetailViewController.h */,
-				82CEF05519684250002C6864 /* DetailViewController.m */,
-				82CEF05619684250002C6864 /* DetailViewController.xib */,
 				82CEF04619681B5C002C6864 /* MenuHrizontal.h */,
 				82CEF04719681B5C002C6864 /* MenuHrizontal.m */,
 				82CEF04819681B5C002C6864 /* ScrollPageView.h */,
 				82CEF04919681B5C002C6864 /* ScrollPageView.m */,
 				1888679B196696CF00AB1F2B /* LiveHomeViewController.h */,
 				1888679C196696CF00AB1F2B /* LiveHomeViewController.m */,
+				82C1A204196C2A7D00C66BF5 /* LiveDetailViewController.h */,
+				82C1A205196C2A7D00C66BF5 /* LiveDetailViewController.m */,
+				821874CE196C37C90035E9D6 /* LiveMovieViewController.h */,
+				821874CF196C37C90035E9D6 /* LiveMovieViewController.m */,
+				821874D7196C47C00035E9D6 /* ModalRootViewController.h */,
+				821874D8196C47C00035E9D6 /* ModalRootViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -653,6 +713,7 @@
 		18C988391966A4B700ED62AF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				821874DF196C4C740035E9D6 /* 1.png */,
 				182AD3AD196BF1FB004AE431 /* LiveShow01.jpg */,
 				82CEF05B196842EE002C6864 /* images */,
 				18C9883A1966A4B700ED62AF /* pic */,
@@ -794,9 +855,59 @@
 			name = Login;
 			sourceTree = "<group>";
 		};
+		821874A0196C379E0035E9D6 /* ALMoviePlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				821874A1196C379E0035E9D6 /* ALAirplayView.h */,
+				821874A2196C379E0035E9D6 /* ALAirplayView.m */,
+				821874A3196C379E0035E9D6 /* ALButton.h */,
+				821874A4196C379E0035E9D6 /* ALButton.m */,
+				821874A5196C379E0035E9D6 /* ALMoviePlayerController.h */,
+				821874A6196C379E0035E9D6 /* ALMoviePlayerController.m */,
+				821874A7196C379E0035E9D6 /* ALMoviePlayerControls.h */,
+				821874A8196C379E0035E9D6 /* ALMoviePlayerControls.m */,
+				821874A9196C379E0035E9D6 /* Images */,
+			);
+			path = ALMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		821874A9196C379E0035E9D6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				821874AA196C379E0035E9D6 /* movieBackward.png */,
+				821874AB196C379E0035E9D6 /* movieBackward@2x.png */,
+				821874AC196C379E0035E9D6 /* movieBackwardSelected.png */,
+				821874AD196C379E0035E9D6 /* movieBackwardSelected@2x.png */,
+				821874AE196C379E0035E9D6 /* movieEndFullscreen.png */,
+				821874AF196C379E0035E9D6 /* movieEndFullscreen@2x.png */,
+				821874B0196C379E0035E9D6 /* movieForward.png */,
+				821874B1196C379E0035E9D6 /* movieForward@2x.png */,
+				821874B2196C379E0035E9D6 /* movieForwardSelected.png */,
+				821874B3196C379E0035E9D6 /* movieForwardSelected@2x.png */,
+				821874B4196C379E0035E9D6 /* movieFullscreen.png */,
+				821874B5196C379E0035E9D6 /* movieFullscreen@2x.png */,
+				821874B6196C379E0035E9D6 /* moviePause.png */,
+				821874B7196C379E0035E9D6 /* moviePause@2x.png */,
+				821874B8196C379E0035E9D6 /* moviePlay.png */,
+				821874B9196C379E0035E9D6 /* moviePlay@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		821874D1196C41D40035E9D6 /* DMCustomModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				821874D2196C41D40035E9D6 /* DMCustomModalViewController.h */,
+				821874D3196C41D40035E9D6 /* DMCustomModalViewController.m */,
+			);
+			path = DMCustomModalViewController;
+			sourceTree = "<group>";
+		};
 		82CEF03C1967DBA2002C6864 /* 3thClass */ = {
 			isa = PBXGroup;
 			children = (
+				821874D1196C41D40035E9D6 /* DMCustomModalViewController */,
+				821874A0196C379E0035E9D6 /* ALMoviePlayerController */,
 				82CEF03D1967DBA2002C6864 /* MBProgressHUD */,
 			);
 			path = 3thClass;
@@ -979,6 +1090,7 @@
 				82CEF0D3196842EE002C6864 /* 19.JPG in Resources */,
 				18C989061966A4B700ED62AF /* 电子邮箱注册按钮.png in Resources */,
 				18C988CC1966A4B700ED62AF /* 刷新.png in Resources */,
+				821874CA196C379E0035E9D6 /* moviePause.png in Resources */,
 				82CEF0B7196842EE002C6864 /* 23_full.JPG in Resources */,
 				18C988F81966A4B700ED62AF /* 特效效果原图（点击）.png in Resources */,
 				82CEF0C8196842EE002C6864 /* 0.JPG in Resources */,
@@ -998,12 +1110,14 @@
 				82CEF0B1196842EE002C6864 /* 18_full.JPG in Resources */,
 				18C9890D1966A4B700ED62AF /* 视频播放条.png in Resources */,
 				18C9890A1966A4B700ED62AF /* 百度账号登录按钮.png in Resources */,
+				821874C7196C379E0035E9D6 /* movieForwardSelected@2x.png in Resources */,
 				82CEF0AA196842EE002C6864 /* 11_full.JPG in Resources */,
 				18C988D91966A4B700ED62AF /* 大按钮背景.png in Resources */,
 				18C988E21966A4B700ED62AF /* 拍照按钮（未点击）.png in Resources */,
 				18C989181966A4B700ED62AF /* 返回按钮.png in Resources */,
 				18C988F31966A4B700ED62AF /* 标签.png in Resources */,
 				18C988F61966A4B700ED62AF /* 灰色小点（变色）.png in Resources */,
+				821874C3196C379E0035E9D6 /* movieEndFullscreen@2x.png in Resources */,
 				82CEF0C0196842EE002C6864 /* 31_full.JPG in Resources */,
 				82CEF0BC196842EE002C6864 /* 28_full.JPG in Resources */,
 				18C9891B1966A4B700ED62AF /* 邮件注册更换头像按钮.png in Resources */,
@@ -1015,7 +1129,10 @@
 				18C988B81966A4B700ED62AF /* 个人资料内关注按钮.png in Resources */,
 				82CEF0BE196842EE002C6864 /* 2_full.JPG in Resources */,
 				18C988DC1966A4B700ED62AF /* 小箭头.png in Resources */,
+				821874CC196C379E0035E9D6 /* moviePlay.png in Resources */,
+				821874CD196C379E0035E9D6 /* moviePlay@2x.png in Resources */,
 				18C9891D1966A4B700ED62AF /* title_background.png in Resources */,
+				821874C5196C379E0035E9D6 /* movieForward@2x.png in Resources */,
 				18C9891C1966A4B700ED62AF /* 静音按钮.png in Resources */,
 				82CEF0DE196842EE002C6864 /* 29.JPG in Resources */,
 				82CEF0E4196842EE002C6864 /* 6.JPG in Resources */,
@@ -1032,6 +1149,7 @@
 				18C988D41966A4B700ED62AF /* 后摄像头按钮.png in Resources */,
 				82CEF0E0196842EE002C6864 /* 30.JPG in Resources */,
 				82CEF0E3196842EE002C6864 /* 5.JPG in Resources */,
+				821874BF196C379E0035E9D6 /* movieBackward@2x.png in Resources */,
 				18C9891E1966A4B700ED62AF /* 黑色透明关闭.png in Resources */,
 				18C989151966A4B700ED62AF /* 评论对话框.png in Resources */,
 				18C988E41966A4B700ED62AF /* 描边框.png in Resources */,
@@ -1043,11 +1161,14 @@
 				18C988D51966A4B700ED62AF /* 喜欢按钮.png in Resources */,
 				18C988BC1966A4B700ED62AF /* 主页（未点击）.png in Resources */,
 				18C9890B1966A4B700ED62AF /* 直播视频首页显示背景@2x.png in Resources */,
+				821874CB196C379E0035E9D6 /* moviePause@2x.png in Resources */,
 				82CEF0CB196842EE002C6864 /* 11.JPG in Resources */,
 				18C988E81966A4B700ED62AF /* 搜索框.png in Resources */,
 				82CEF0BA196842EE002C6864 /* 26_full.JPG in Resources */,
+				821874C6196C379E0035E9D6 /* movieForwardSelected.png in Resources */,
 				18C988F01966A4B700ED62AF /* 时间标志.png in Resources */,
 				18C988BB1966A4B700ED62AF /* 个人资料内取消关注按钮.png in Resources */,
+				821874C8196C379E0035E9D6 /* movieFullscreen.png in Resources */,
 				82CEF0C9196842EE002C6864 /* 1.JPG in Resources */,
 				82CEF0AD196842EE002C6864 /* 14_full.JPG in Resources */,
 				18C988D71966A4B700ED62AF /* 回顾视频首页显示背景@2x.png in Resources */,
@@ -1078,7 +1199,7 @@
 				82CEF0C4196842EE002C6864 /* 6_full.JPG in Resources */,
 				18C989071966A4B700ED62AF /* 登录按钮.png in Resources */,
 				18C988B31966A4B700ED62AF /* 54-34结束图标.png in Resources */,
-				82CEF05A19684250002C6864 /* DetailViewController.xib in Resources */,
+				821874C0196C379E0035E9D6 /* movieBackwardSelected.png in Resources */,
 				18C988B71966A4B700ED62AF /* 个人资料介绍内背景.png in Resources */,
 				18C988DE1966A4B700ED62AF /* 张贴.png in Resources */,
 				18C988AD1966A4B700ED62AF /* 102-102头像.png in Resources */,
@@ -1086,6 +1207,7 @@
 				18C988F21966A4B700ED62AF /* 更改密码钥匙图标.png in Resources */,
 				18C989001966A4B700ED62AF /* 特效效果黑白（点击）.png in Resources */,
 				82CEF0DF196842EE002C6864 /* 3.JPG in Resources */,
+				821874C1196C379E0035E9D6 /* movieBackwardSelected@2x.png in Resources */,
 				18C989041966A4B700ED62AF /* 用户（点击）.png in Resources */,
 				18C988EC1966A4B700ED62AF /* 摄像按钮（点击闪一下）.png in Resources */,
 				18C988EF1966A4B700ED62AF /* 整体暗色大背景.png in Resources */,
@@ -1105,6 +1227,7 @@
 				82CEF0D1196842EE002C6864 /* 17.JPG in Resources */,
 				82CEF0D5196842EE002C6864 /* 20.JPG in Resources */,
 				82CEF0E5196842EE002C6864 /* 7.JPG in Resources */,
+				821874C4196C379E0035E9D6 /* movieForward.png in Resources */,
 				18C988CD1966A4B700ED62AF /* 前摄像头按钮.png in Resources */,
 				182AD3AE196BF1FB004AE431 /* LiveShow01.jpg in Resources */,
 				82CEF0C3196842EE002C6864 /* 5_full.JPG in Resources */,
@@ -1121,17 +1244,21 @@
 				18C988E11966A4B700ED62AF /* 打开闪光按钮.png in Resources */,
 				18C988C41966A4B700ED62AF /* 分享到腾讯微博.png in Resources */,
 				18C989171966A4B700ED62AF /* 评论按钮（已评论）.png in Resources */,
+				821874BE196C379E0035E9D6 /* movieBackward.png in Resources */,
 				82CEF0B5196842EE002C6864 /* 21_full.JPG in Resources */,
 				82CEF0AC196842EE002C6864 /* 13_full.JPG in Resources */,
 				82CEF0D6196842EE002C6864 /* 21.JPG in Resources */,
 				18C988EA1966A4B700ED62AF /* 搜索（点击）.png in Resources */,
 				18C988D21966A4B700ED62AF /* 发布内选择按钮.png in Resources */,
+				821874E0196C4C740035E9D6 /* 1.png in Resources */,
 				18C988B01966A4B700ED62AF /* 240-240头像.png in Resources */,
+				821874C2196C379E0035E9D6 /* movieEndFullscreen.png in Resources */,
 				18C989031966A4B700ED62AF /* 用户（未点击）.png in Resources */,
 				82CEF0CE196842EE002C6864 /* 14.JPG in Resources */,
 				1888676B196694B500AB1F2B /* Images.xcassets in Resources */,
 				18C988C71966A4B700ED62AF /* 分享按钮.png in Resources */,
 				18C988FB1966A4B700ED62AF /* 特效效果夕阳（未点击）.png in Resources */,
+				821874C9196C379E0035E9D6 /* movieFullscreen@2x.png in Resources */,
 				18C9890C1966A4B700ED62AF /* 编辑资料图标.png in Resources */,
 				82CEF0D2196842EE002C6864 /* 18.JPG in Resources */,
 				18C988C01966A4B700ED62AF /* 分享到微信.png in Resources */,
@@ -1177,23 +1304,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821874BB196C379E0035E9D6 /* ALButton.m in Sources */,
+				821874D0196C37C90035E9D6 /* LiveMovieViewController.m in Sources */,
 				82CEF04B19681B5C002C6864 /* ScrollPageView.m in Sources */,
 				1888679D196696CF00AB1F2B /* LiveHomeViewController.m in Sources */,
 				82CEF0421967DBA2002C6864 /* HudDemoViewController.m in Sources */,
 				82CEF05719684250002C6864 /* CollectionCell.m in Sources */,
 				188867A3196696F900AB1F2B /* LivePersionViewController.m in Sources */,
 				18886766196694B500AB1F2B /* LiveProjectAppDelegate.m in Sources */,
+				821874BA196C379E0035E9D6 /* ALAirplayView.m in Sources */,
+				82C1A206196C2A7D00C66BF5 /* LiveDetailViewController.m in Sources */,
 				188867A61966970C00AB1F2B /* LiveSettingViewController.m in Sources */,
+				821874BC196C379E0035E9D6 /* ALMoviePlayerController.m in Sources */,
 				820143B41966E6CC00A65700 /* LiveSuperViewController.m in Sources */,
 				82CEF0EE196AA852002C6864 /* SelfInfoViewController.m in Sources */,
 				82CEF0F1196AF1CE002C6864 /* LiveSettingDetailViewController.m in Sources */,
 				820143B81967B61400A65700 /* LiveLoginViewController.m in Sources */,
-				82CEF05919684250002C6864 /* DetailViewController.m in Sources */,
 				82CEF0431967DBA2002C6864 /* MBProgressHUD.m in Sources */,
 				18886795196695F700AB1F2B /* LiveProjectTabBar.m in Sources */,
+				821874D4196C41D40035E9D6 /* DMCustomModalViewController.m in Sources */,
 				18886769196694B500AB1F2B /* LiveApp.xcdatamodeld in Sources */,
+				821874D9196C47C00035E9D6 /* ModalRootViewController.m in Sources */,
 				82CEF04A19681B5C002C6864 /* MenuHrizontal.m in Sources */,
 				82CEF0341967C2B8002C6864 /* LoginViewController.m in Sources */,
+				821874BD196C379E0035E9D6 /* ALMoviePlayerControls.m in Sources */,
 				188867A0196696E000AB1F2B /* LiveSearchViewController.m in Sources */,
 				18886762196694B500AB1F2B /* main.m in Sources */,
 				82CEF0371967C2D8002C6864 /* SignUpViewController.m in Sources */,

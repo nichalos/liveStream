@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface LiveSuperViewController : UIViewController
+{
+    BOOL isShowBackBtn;
+}
 
+
+-(void)initPopTitileView:(NSString *)title;
+- (void)backAction:(UIButton*)backBtn;
 @end

@@ -34,7 +34,6 @@ NSString *kCellID = @"cellID";
     }
     if (_scrollView == nil) {
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-        NSLog(@"ScrollViewFrame:(%f,%f)",self.frame.size.width,self.frame.size.height);
         _scrollView.pagingEnabled = YES;
         _scrollView.delegate = self;
     }

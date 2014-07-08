@@ -29,7 +29,7 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     self.navigationController.navigationBar.hidden = YES;
     [self setBackgroundImg];
-    [self initPopTitileView:@"直播秀"];
+    
 }
 
 - (void)setBackgroundImg
@@ -55,8 +55,24 @@
     _titleNameLabel.textColor = [UIColor whiteColor];
     _titleNameLabel.textAlignment = NSTextAlignmentCenter;
     [commonTitleView addSubview:_titleNameLabel];
-    
+    if (isShowBackBtn) {
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.backgroundColor = [UIColor clearColor];
+        button.frame = CGRectMake(0, 20, 44, 44);
+        [button addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
+        
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(14, 7, 30, 30)];
+        imageView.image = [UIImage imageNamed:@"返回按钮"];
+        imageView.backgroundColor = [UIColor clearColor];
+        [button addSubview:imageView];
+        [commonTitleView addSubview:button];
+    }
     [self.view addSubview:commonTitleView];
+}
+
+- (void)backAction:(UIButton*)backBtn
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning
