@@ -146,8 +146,6 @@
 		820143B81967B61400A65700 /* LiveLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820143B71967B61400A65700 /* LiveLoginViewController.m */; };
 		82CEF0341967C2B8002C6864 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF0331967C2B8002C6864 /* LoginViewController.m */; };
 		82CEF0371967C2D8002C6864 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF0361967C2D8002C6864 /* SignUpViewController.m */; };
-		82CEF03A1967C2F7002C6864 /* LiveShow02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF0381967C2F7002C6864 /* LiveShow02.jpg */; };
-		82CEF03B1967C2F7002C6864 /* LiveShow03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82CEF0391967C2F7002C6864 /* LiveShow03.jpg */; };
 		82CEF0421967DBA2002C6864 /* HudDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF03F1967DBA2002C6864 /* HudDemoViewController.m */; };
 		82CEF0431967DBA2002C6864 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CEF0411967DBA2002C6864 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		82CEF0451967DBD6002C6864 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CEF0441967DBD6002C6864 /* Accelerate.framework */; };
@@ -390,8 +388,6 @@
 		82CEF0331967C2B8002C6864 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		82CEF0351967C2D8002C6864 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		82CEF0361967C2D8002C6864 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
-		82CEF0381967C2F7002C6864 /* LiveShow02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LiveShow02.jpg; path = "../../../../Documents/LiveStream/project/Live/效果图/LiveShow02.jpg"; sourceTree = "<group>"; };
-		82CEF0391967C2F7002C6864 /* LiveShow03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LiveShow03.jpg; path = "../../../../Documents/LiveStream/project/Live/效果图/LiveShow03.jpg"; sourceTree = "<group>"; };
 		82CEF03E1967DBA2002C6864 /* HudDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudDemoViewController.h; sourceTree = "<group>"; };
 		82CEF03F1967DBA2002C6864 /* HudDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudDemoViewController.m; sourceTree = "<group>"; };
 		82CEF0401967DBA2002C6864 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -656,8 +652,6 @@
 			isa = PBXGroup;
 			children = (
 				82CEF05B196842EE002C6864 /* images */,
-				82CEF0381967C2F7002C6864 /* LiveShow02.jpg */,
-				82CEF0391967C2F7002C6864 /* LiveShow03.jpg */,
 				18C9883A1966A4B700ED62AF /* pic */,
 			);
 			path = Resource;
@@ -1067,7 +1061,6 @@
 				18C988D31966A4B700ED62AF /* 取消关注按钮.png in Resources */,
 				18C9891A1966A4B700ED62AF /* 选择秀友按钮颜色.png in Resources */,
 				18C988D01966A4B700ED62AF /* 加关注按钮.png in Resources */,
-				82CEF03B1967C2F7002C6864 /* LiveShow03.jpg in Resources */,
 				82CEF0DC196842EE002C6864 /* 27.JPG in Resources */,
 				18C988F51966A4B700ED62AF /* 灰色小点.png in Resources */,
 				18C9890E1966A4B700ED62AF /* 视频播放边上的刷新.png in Resources */,
@@ -1101,7 +1094,6 @@
 				18C988E91966A4B700ED62AF /* 搜索（未点击）.png in Resources */,
 				18C988ED1966A4B700ED62AF /* 摄像按钮（点击）.png in Resources */,
 				82CEF0AF196842EE002C6864 /* 16_full.JPG in Resources */,
-				82CEF03A1967C2F7002C6864 /* LiveShow02.jpg in Resources */,
 				18C988F91966A4B700ED62AF /* 特效效果复古（未点击）.png in Resources */,
 				18C989161966A4B700ED62AF /* 评论按钮.png in Resources */,
 				18C988CE1966A4B700ED62AF /* 功能条背景.png in Resources */,

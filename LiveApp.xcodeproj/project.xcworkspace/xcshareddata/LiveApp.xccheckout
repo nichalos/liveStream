@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CBDD9B3-E4F8-4F99-8703-440B659E1570</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LiveApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8682EC59-2068-4E59-9804-B63C726F0736</key>
+		<string>https://github.com/nichalos/liveStream.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LiveApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8682EC59-2068-4E59-9804-B63C726F0736</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nichalos/liveStream.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8682EC59-2068-4E59-9804-B63C726F0736</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8682EC59-2068-4E59-9804-B63C726F0736</string>
+			<key>IDESourceControlWCCName</key>
+			<string>liveStream</string>
+		</dict>
+	</array>
+</dict>
+</plist>
