@@ -37,8 +37,6 @@ CGFloat foot = 63;
     [self prepareData];
     [self initTableView];
     [self LogOutBtn];
-    
-    
 }
 
 #pragma data
@@ -46,10 +44,8 @@ CGFloat foot = 63;
 -(void)prepareData
 {
     if (!_dataArray) {
-        _dataArray = [[NSArray alloc] init];
+         _dataArray = [NSArray arrayWithObjects:@"修改资料",@"更改密码",@"连接社交账号",@"保存路径",@"通知提示",@"FTP直播输入",@"直播秀设备",@"远程摄像", nil];
     }
-    
-    _dataArray = @[@"修改资料",@"更改密码",@"连接社交账号",@"保存路径",@"通知提示",@"FTP直播输入",@"直播秀设备",@"远程摄像"];
 }
 
 
@@ -129,6 +125,7 @@ CGFloat foot = 63;
     button.titleLabel.font = [UIFont systemFontOfSize:17];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button setTitle:@"退出登录" forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@"大按钮背景"] forState:UIControlStateNormal];
     
     [self.view addSubview:button];
 }
